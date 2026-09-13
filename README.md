@@ -26,10 +26,12 @@ Riêng bản đã được cài sẵn tại `D:\trick\thu\live-subtitles` có th
 ## Cách sử dụng
 
 1. Mở **`Start.cmd`** trong thư mục ứng dụng.
-2. Chọn đúng đầu ra mà ứng dụng đang phát, giống mục loa/tai nghe trong Zoom, Meet hoặc Windows. Ví dụ máy kiểm thử có **Speaker (Realtek(R) Audio) [Loopback]** và **Speakers (DeskIn(R) Virtual Audio Device) [Loopback]**; máy khác sẽ có tên khác.
+2. Chọn đúng đầu ra trong **Nguồn âm thanh** ở cột trái, giống mục loa/tai nghe trong Zoom, Meet hoặc Windows. Ví dụ máy kiểm thử có **Speaker (Realtek(R) Audio)** và **Speakers (DeskIn(R) Virtual Audio Device)**; máy khác sẽ có tên khác. Danh sách chỉ gồm đầu ra loopback và ẩn hậu tố kỹ thuật để dễ đọc.
 3. Bấm **Bắt đầu nghe**, sau đó phát nội dung tiếng Anh trong Meet, Zoom, trình duyệt hoặc ứng dụng khác.
-4. Kéo thanh tiêu đề cửa sổ phụ đề đến vị trí thuận tiện. Đổi cỡ chữ hoặc bật/tắt dòng tiếng Anh ở cửa sổ chính. Bấm **Hiện phụ đề** để mở lại nếu đã đóng cửa sổ nổi.
+4. Xem **Bản dịch hiện tại** và **Phụ đề gần đây** ở cột phải. Kéo thanh tiêu đề cửa sổ phụ đề nổi đến vị trí thuận tiện; cửa sổ này tự tăng/giảm chiều cao theo câu. Đổi **Cỡ chữ** của cửa sổ nổi hoặc bật/tắt **Hiện cả tiếng Anh** ở cột trái (áp dụng cho cả cửa sổ nổi và bản dịch hiện tại). Bấm **Hiện phụ đề ↗** để mở lại nếu đã đóng cửa sổ nổi.
 5. Bấm **Dừng**, **Dừng nghe** trên phụ đề, hoặc phím **Esc khi một cửa sổ ứng dụng đang có focus**. Đóng cửa sổ điều khiển cũng yêu cầu dừng rồi thoát.
+
+Thanh trạng thái và hai nút **Bắt đầu nghe / Dừng** luôn ở phía trên. Trạng thái nghe có dấu chấm và chữ màu xanh; trạng thái dừng, xử lý file và lỗi có nhãn riêng. Thông báo dài có thể cuộn trong vùng thông báo mà không đẩy các nút ra khỏi cửa sổ. Bản dịch hiện tại và lịch sử đều có thanh cuộn để đọc câu dài. Có thể dùng Tab để chuyển giữa các điều khiển và Space để kích hoạt nút đang được chọn.
 
 Ứng dụng mở ở trạng thái **đã dừng**, không tự ghi âm. Khi dừng, callback ngừng nhận dữ liệu mới; nếu mô hình đang tính toán, ứng dụng đợi đoạn đó kết thúc và bỏ kết quả. Cửa sổ chính sẽ báo khi đã dừng hẳn. Đóng riêng cửa sổ phụ đề chỉ ẩn phụ đề, không dừng; cửa sổ điều khiển vẫn hiện trạng thái đang nghe.
 

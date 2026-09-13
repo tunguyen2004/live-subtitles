@@ -1,6 +1,8 @@
 {
   "real_capture_opened": false,
+  "minimum_window_controls_visible": true,
   "real_file_translation_visible": true,
   "font_bilingual_long_caption_layout": true,
+  "long_error_readable_and_retry_available": true,
   "start_stop_restart_close_and_stale_caption_suppression": true
 }
