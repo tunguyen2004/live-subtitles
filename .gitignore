@@ -1,0 +1,39 @@
+# Environments, downloaded runtimes and models
+.venv/
+venv/
+.task-python/
+.task-cache/
+models/
+
+# Generated caches, temporary downloads and logs
+__pycache__/
+*.py[cod]
+.temp/
+.cache/
+.pytest_cache/
+*.log
+*.part
+*.tmp
+*.argosmodel
+*.bin
+
+# Credentials and private machine notes
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+WORKLOG.md
+
+# Keep only reviewed synthetic fixtures and small verification evidence.
+/test-results/*
+!/test-results/english-sample.wav
+!/test-results/offline-check.json
+!/test-results/ui-check.json
+!/test-results/controls.png
+!/test-results/subtitles.png
+!/test-results/README.md

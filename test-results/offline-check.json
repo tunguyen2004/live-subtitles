@@ -1,0 +1,27 @@
+{
+  "sample": "english-sample.wav",
+  "network_connect_blocked": true,
+  "capture_device_opened": false,
+  "model_load_seconds": 1.8440000000118744,
+  "total_seconds": 11.53200000000652,
+  "captions": [
+    {
+      "english": "Hello everyone.",
+      "vietnamese": "Xin chào mọi người.",
+      "processing_seconds": 1.875,
+      "age_seconds": 0
+    },
+    {
+      "english": "Today we will learn how to build a useful application.",
+      "vietnamese": "Hôm nay chúng ta sẽ học cách xây dựng một ứng dụng hữu ích.",
+      "processing_seconds": 4.0,
+      "age_seconds": 0
+    },
+    {
+      "english": "Please open the settings and check your audio device.",
+      "vietnamese": "Vui lòng mở thiết lập và kiểm tra thiết bị âm thanh.",
+      "processing_seconds": 3.75,
+      "age_seconds": 0
+    }
+  ]
+}
